@@ -105,7 +105,7 @@ public class Tienda extends JFrame implements ActionListener {
 		JMenu mnNewMenu_1 = new JMenu("Mantenimiento");
 		menuBar.add(mnNewMenu_1);
 		
-		JMenuItem mntmNewMenuItem_1 = new JMenuItem("Consultar Maleta");
+		JMenuItem mntmNewMenuItem_1 = new JMenuItem("Consultar maleta");
 		mntmNewMenuItem_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				ConsultarMaleta AbrirConsultarMaleta = new ConsultarMaleta();
@@ -115,10 +115,10 @@ public class Tienda extends JFrame implements ActionListener {
 		});
 		mnNewMenu_1.add(mntmNewMenuItem_1);
 		
-		JMenuItem mntmNewMenuItem_2 = new JMenuItem("Modificar Maleta");
+		JMenuItem mntmNewMenuItem_2 = new JMenuItem("Modificar maleta");
 		mnNewMenu_1.add(mntmNewMenuItem_2);
 		
-		JMenuItem mntmNewMenuItem_3 = new JMenuItem("Listar Maletas");
+		JMenuItem mntmNewMenuItem_3 = new JMenuItem("Listar maletas");
 		mnNewMenu_1.add(mntmNewMenuItem_3);
 		
 		JMenu mnNewMenu_2 = new JMenu("Ventas");
@@ -127,22 +127,22 @@ public class Tienda extends JFrame implements ActionListener {
 		JMenuItem mntmNewMenuItem_4 = new JMenuItem("Vender");
 		mnNewMenu_2.add(mntmNewMenuItem_4);
 		
-		JMenuItem mntmNewMenuItem_5 = new JMenuItem("Generar Reportes");
+		JMenuItem mntmNewMenuItem_5 = new JMenuItem("Generar reportes");
 		mnNewMenu_2.add(mntmNewMenuItem_5);
 		
-		JMenu mnNewMenu_3 = new JMenu("Configuración");
+		JMenu mnNewMenu_3 = new JMenu("Configuraci\u00F3n");
 		menuBar.add(mnNewMenu_3);
 		
-		JMenuItem mntmNewMenuItem_7 = new JMenuItem("Configurar Descuentos");
+		JMenuItem mntmNewMenuItem_7 = new JMenuItem("Configurar descuentos");
 		mnNewMenu_3.add(mntmNewMenuItem_7);
 		
 		JMenuItem mntmNewMenuItem_8 = new JMenuItem("Configurar obsequios");
 		mnNewMenu_3.add(mntmNewMenuItem_8);
 		
-		JMenuItem mntmNewMenuItem_9 = new JMenuItem("Configurar Cantidad óptima");
+		JMenuItem mntmNewMenuItem_9 = new JMenuItem("Configurar cantidad \u00F3ptima");
 		mnNewMenu_3.add(mntmNewMenuItem_9);
 		
-		JMenuItem mntmNewMenuItem_10 = new JMenuItem("Configurar Cuota Diaria");
+		JMenuItem mntmNewMenuItem_10 = new JMenuItem("Configurar cuota diaria");
 		mnNewMenu_3.add(mntmNewMenuItem_10);
 		
 		JMenu mnNewMenu_4 = new JMenu("Ayuda");
