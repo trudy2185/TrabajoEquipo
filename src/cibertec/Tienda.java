@@ -110,6 +110,7 @@ public class Tienda extends JFrame implements ActionListener {
 		JMenu mnNewMenu_1 = new JMenu("Mantenimiento");
 		menuBar.add(mnNewMenu_1);
 		
+		
 		JMenuItem mntmNewMenuItem_1 = new JMenuItem("Consultar maleta");
 		mntmNewMenuItem_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
