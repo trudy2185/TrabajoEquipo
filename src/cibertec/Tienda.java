@@ -76,7 +76,7 @@ public class Tienda extends JFrame implements ActionListener {
 				try {
 					Tienda frame = new Tienda();
 					frame.setVisible(true);
-					frame.setLocationRelativeTo(null);
+					
 				}
 				catch (Exception e) {
 					e.printStackTrace();
