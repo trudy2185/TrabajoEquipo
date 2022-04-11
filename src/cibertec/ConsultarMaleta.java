@@ -65,7 +65,7 @@ public class ConsultarMaleta extends JFrame {
 		contentPane.add(lblNewLabel_3);
 		
 		JLabel lblNewLabel_4 = new JLabel("Fondo (cm)");
-		lblNewLabel_4.setBounds(25, 181, 46, 14);
+		lblNewLabel_4.setBounds(25, 181, 78, 14);
 		contentPane.add(lblNewLabel_4);
 		
 		JButton btnNewButton = new JButton("Cerrar");
